@@ -20,4 +20,8 @@ reverse("Harkamal")                               //> res3: String = lamakraH
 val reverseString = (str: String) => str.foldLeft("")((accumulator, nextChar) => nextChar + accumulator)
                                                   //> reverseString  : String => String = my_sheet$$$Lambda$8/672320506@2acf57e3
 reverseString("hi")                               //> res4: String = ih
+val a:Int = 7                                     //> a  : Int = 7
+
+def h() = {"this str gets returned"}              //> h: ()String
+h()                                               //> res5: String = this str gets returned
 }
